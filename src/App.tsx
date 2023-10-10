@@ -1,11 +1,16 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import Users from "./components/Example/users";
+import { DataCards } from "./contex.tsx/data";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <Example />{" "}
-    </>
+  
+    <DataCards>
+      <Users />
+    </DataCards>
+     
+  
   );
 }
 
